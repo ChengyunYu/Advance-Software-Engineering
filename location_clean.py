@@ -1,6 +1,6 @@
 import json
 import googlemaps
-gmaps = googlemaps.Client(key='AIzaSyAWVa-cZ-zXqA5xLDeTRH2L6P9JHHblKZs')
+gmaps = googlemaps.Client(key='YOUR_API_KEY')
 
 with open('teams.json') as ifile:    
     datas = json.load(ifile)
